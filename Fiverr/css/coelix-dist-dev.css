@@ -1,0 +1,127 @@
+/* Header */
+.rtl .logo {
+    flex-direction: row;
+}
+
+.rtl .logo__item-1 {
+    margin-left: 0;
+    margin-right: 30px;
+}
+
+.rtl .logo__item-1:before {
+    left: unset;
+}
+
+/* First screen */
+.rtl .button__apply {
+    direction: rtl;
+}
+
+.timers-block {
+    margin-left: unset;
+    margin-right: auto;
+    width: fit-content;
+}
+
+.rtl .timers-block {
+    margin-left: auto;
+    margin-right: unset;
+}
+@media screen and (max-width: 768px) {
+    #fld_7908577_2{
+        max-width: unset !important;
+    }
+    .rtl .main-info {
+        margin: 0 auto;
+        width: 100%;
+    }
+    
+    .rtl .timers {
+        width: unset;
+    }
+    
+    .timers-block,
+    .rtl .timers-block {
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+    
+    .main-info__startup-days:after {
+        height: 100%;
+        top: unset;
+    }
+}
+
+/* Section two */
+.rtl .section-two .right-background .right-center {
+    right: unset;
+    left: -8%;
+    transform: scaleX(-1);
+}
+
+.rtl .section-two .left-background .left-top,
+.rtl .section-two .left-background .left-bottom {
+    left: unset;
+    right: 0;
+    transform: scaleX(-1);
+}
+
+/* Section three */
+@media screen and (max-width: 500px) {
+    .rtl .section-content__item-3 {
+        margin-left: unset;
+        order: 3;
+    }
+    
+    .rtl .section-content__item-2 {
+        order: 2;
+    }
+    
+    .rtl .item__info-3 img {
+        margin-top: unset;
+        transform: unset;
+    }
+    
+    .rtl .section-content__item-1,
+    .rtl .section-content__item-3 {
+        margin-top: 65px;
+    }
+}
+
+/* application form */
+.js-idea-desc.is-hidden {
+    height: 0;
+    overflow: hidden;
+    margin: 0;
+}
+
+/* Team section */
+@media screen and (max-width: 768px) {
+    .rtl .team__item {
+        margin-right: 0;
+    }
+}
+
+/* Terms */
+.page-template-default p,
+.page-template-default li {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.4;
+}
+
+/* .page-template-default p:not(:last-child),
+.page-template-default li:not(:last-child) {
+    margin-bottom: 10px;
+} */
+
+@media screen and (max-width: 500px) {
+    .page-template-default h1 {
+        font-size: 22px !important;
+        margin-bottom: 30px;
+    }
+}
+
+/*This file was exported by "Export WP Page to Static HTML" plugin which created by ReCorp (https://myrecorp.com) */
